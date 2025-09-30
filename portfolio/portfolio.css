@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+html {
+	scroll-behavior: smooth;
+	background-color: rgb(212, 212, 212);
+
+	body {
+		font-family: "DotGothic16", sans-serif;
+	}
+
+	.wrapper {
+
+		align-items: center;
+		text-align: center;
+	}
+
+	a:hover {
+		color: royalblue;
+		border-bottom: 1px dashed royalblue;
+	}
+
+	header {
+		background-color: rgb(251, 49, 49);
+		height: 180px;
+	}
+
+	.sp {
+		font-size: 46px;
+		color: blue;
+	}
+
+
+	nav {
+		text-align: center;
+		margin: 0 240px 0;
+	}
+
+	nav h1 {
+		font-size: 48px;
+	}
+
+	nav ul {
+		display: flex;
+		justify-content: center;
+		margin-left: auto;
+		gap: 1rem;
+	}
+
+	nav ul li {
+		padding: 20px;
+
+		font-size: 32px;
+		margin-top: 20px;
+		letter-spacing: 0.5rem;
+
+	}
+
+	body {
+		overflow-x: hidden;
+	}
+
+	#profile {
+		align-items: center;
+		text-align: center;
+		height: 450px;
+		font-size: 18px;
+		margin: 0 15% 0;
+
+	}
+
+	#profile h1 {
+		margin-top: 20px;
+		font-size: 32px;
+		border-top: dashed 2px rgb(0, 128, 255);
+		border-bottom: dashed 2px rgb(0, 128, 255);
+	}
+
+	.item1 {
+		display: flex;
+		line-height: 3rem;
+		margin-top: 30px;
+		gap: 20px;
+		border: 2px dashed rgb(0, 0, 255);
+		background-color: rgb(147 229 222);
+		height: 350px;
+	}
+
+	.text1 {
+		margin-top: 20px;
+	}
+
+	.contents-profile,
+	.contents-text {
+
+		margin-top: 20px;
+	}
+
+	.contents-profile {
+		width: 35%;
+	}
+
+	.contents-text {
+		width: 65%;
+	}
+
+	.contents-text p {
+		text-align: left;
+	}
+
+	#skill {
+		align-items: center;
+		text-align: center;
+		font-size: 18px;
+		margin: 0 15% 0;
+	}
+
+	#skill h1 {
+		margin-top: 20px;
+		font-size: 32px;
+		border-top: dashed 2px rgb(0, 128, 255);
+		border-bottom: dashed 2px rgb(0, 128, 255);
+	}
+
+	.skill-li {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 2rem;
+		border: 2px dashed rgb(0, 0, 255);
+		margin-top: 30px;
+		margin-bottom: 40px;
+		background-color: rgb(147 229 222);
+	}
+
+	.skill-item {
+		width: 45%;
+		margin-top: 3rem;
+
+	}
+
+	.skill-item ul li {
+		line-height: 2rem;
+		list-style: inside;
+		text-align: start;
+
+	}
+
+	#contact {
+		align-items: center;
+		text-align: center;
+		font-size: 18px;
+		margin: 0 15% 0;
+		line-height: 3rem;
+		margin-bottom: 40px;
+	}
+
+	.contact-form {
+		border: 2px dashed blue;
+		padding-bottom: 20px;
+		background-color: rgb(147 229 222);
+	}
+
+	#contact h1 {
+		margin-top: 20px;
+		font-size: 32px;
+		border-top: dashed 2px rgb(0, 128, 255);
+		border-bottom: dashed 2px rgb(0, 128, 255);
+		margin-bottom: 20px;
+	}
+
+	#contact input {
+		border: 1.5px dashed blue;
+
+	}
+
+	.box {
+		text-align: left;
+	}
+
+	textarea {
+		border: 1.5px dashed blue;
+		text-align: left;
+		width: 50%;
+		height: 10rem;
+	}
+
+	.gender {
+		border: 1.5px dashed blue;
+		width: 25%;
+		margin: 0 auto;
+	}
+
+	label:hover {
+		color: blue;
+		border-bottom: 1px dashed blue;
+	}
+
+	.sub {
+		margin-top: 20px;
+		text-align: center;
+		width: 10%;
+		background-color: gray;
+		border-radius: 15%;
+		box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
+		transform: translateY(-4px);
+
+	}
+
+	.sub:hover {
+		background-image: linear-gradient(130deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 80%);
+		transition: .5s;
+		box-shadow: none;
+		transform: translateY(0);
+	}
+
+	footer {
+		height: 100px;
+		background-color: rgb(251, 49, 49);
+	}
+
+	footer p {
+		text-align: center;
+		padding-top: 80px;
+	}
