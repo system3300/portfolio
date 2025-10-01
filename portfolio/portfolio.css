@@ -21,6 +21,8 @@ a:hover {
 	border-bottom: 1px dashed rgb(0, 128, 255);
 }
 
+/*ヘッダー*/
+
 header {
 	background-color: rgb(0, 0, 193);
 	height: 180px;
@@ -54,12 +56,11 @@ nav ul li {
 	font-size: 32px;
 	margin-top: 20px;
 	letter-spacing: 0.5rem;
-
 }
 
-body {
-	overflow-x: hidden;
-}
+/*メイン*/
+
+/*プロフィール*/
 
 #profile {
 	align-items: center;
@@ -67,13 +68,10 @@ body {
 	height: 450px;
 	font-size: 18px;
 	margin: 0 15% 0;
-
 }
 
 #profile h1 {
-
 	font-size: 32px;
-
 }
 
 .profile-top {
@@ -133,6 +131,8 @@ body {
 	text-align: left;
 }
 
+/*スキル*/
+
 #skill {
 	align-items: center;
 	text-align: center;
@@ -183,15 +183,15 @@ body {
 .skill-item {
 	width: 45%;
 	margin-top: 3rem;
-
 }
 
 .skill-item ul li {
 	line-height: 2rem;
 	list-style: inside;
 	text-align: start;
-
 }
+
+/*お問い合わせ*/
 
 #contact {
 	align-items: center;
@@ -234,14 +234,12 @@ body {
 }
 
 #contact h1 {
-
 	font-size: 32px;
 }
 
 #contact input {
 	border: 1.5px solid rgb(255, 255, 255);
 	border-radius: 10px;
-
 }
 
 .box {
@@ -276,7 +274,6 @@ label:hover {
 	border-radius: 15%;
 	box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
 	transform: translateY(-4px);
-
 }
 
 .sub:hover {
@@ -286,11 +283,12 @@ label:hover {
 	transform: translateY(0);
 }
 
+/*フッター*/
+
 footer {
 	height: 120px;
 	background-color: rgb(0, 0, 193);
 	border-top: 10px dashed white;
-
 }
 
 footer p {
