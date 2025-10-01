@@ -15,13 +15,14 @@ html {
 	}
 
 	a:hover {
-		color: royalblue;
-		border-bottom: 1px dashed royalblue;
+		color: rgb(0, 128, 255);
+		border-bottom: 1px dashed rgb(0, 128, 255);
 	}
 
 	header {
-		background-color: rgb(251, 49, 49);
+		background-color: rgb(0, 0, 193);
 		height: 180px;
+		border-bottom: 10px dashed white;
 	}
 
 	.sp {
@@ -48,7 +49,6 @@ html {
 
 	nav ul li {
 		padding: 20px;
-
 		font-size: 32px;
 		margin-top: 20px;
 		letter-spacing: 0.5rem;
@@ -80,9 +80,11 @@ html {
 		line-height: 3rem;
 		margin-top: 30px;
 		gap: 20px;
-		border: 2px dashed rgb(0, 0, 255);
-		background-color: rgb(147 229 222);
 		height: 350px;
+		border: 2px solid rgb(255, 255, 255);
+		background-color: rgb(0, 0, 0);
+		color: white;
+		border-radius: 10px;
 	}
 
 	.text1 {
@@ -126,10 +128,12 @@ html {
 		flex-wrap: wrap;
 		justify-content: center;
 		gap: 2rem;
-		border: 2px dashed rgb(0, 0, 255);
 		margin-top: 30px;
 		margin-bottom: 40px;
-		background-color: rgb(147 229 222);
+		border: 2px solid rgb(255, 255, 255);
+		background-color: rgb(0, 0, 0);
+		color: white;
+		border-radius: 10px;
 	}
 
 	.skill-item {
@@ -155,9 +159,11 @@ html {
 	}
 
 	.contact-form {
-		border: 2px dashed blue;
 		padding-bottom: 20px;
-		background-color: rgb(147 229 222);
+		border: 2px solid rgb(255, 255, 255);
+		background-color: rgb(0, 0, 0);
+		color: white;
+		border-radius: 10px;
 	}
 
 	#contact h1 {
@@ -169,7 +175,8 @@ html {
 	}
 
 	#contact input {
-		border: 1.5px dashed blue;
+		border: 1.5px solid rgb(255, 255, 255);
+		border-radius: 10px;
 
 	}
 
@@ -178,14 +185,16 @@ html {
 	}
 
 	textarea {
-		border: 1.5px dashed blue;
+		border: 1.5px solid rgb(255, 255, 255);
+		border-radius: 10px;
 		text-align: left;
 		width: 50%;
 		height: 10rem;
 	}
 
 	.gender {
-		border: 1.5px dashed blue;
+		border: 1.5px solid rgb(255, 255, 255);
+		border-radius: 10px;
 		width: 25%;
 		margin: 0 auto;
 	}
@@ -199,7 +208,7 @@ html {
 		margin-top: 20px;
 		text-align: center;
 		width: 10%;
-		background-color: gray;
+		background-color: rgb(255, 0, 0);
 		border-radius: 15%;
 		box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
 		transform: translateY(-4px);
@@ -214,8 +223,10 @@ html {
 	}
 
 	footer {
-		height: 100px;
-		background-color: rgb(251, 49, 49);
+		height: 120px;
+		background-color: rgb(0, 0, 193);
+	    border-top: 10px dashed white;
+
 	}
 
 	footer p {
