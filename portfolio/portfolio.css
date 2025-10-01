@@ -3,233 +3,297 @@
 html {
 	scroll-behavior: smooth;
 	background-color: rgb(212, 212, 212);
+	background-image: url("image/maptile_sogen_01.png");
+	background-size: 50px;
+}
 
-	body {
-		font-family: "DotGothic16", sans-serif;
-	}
+body {
+	font-family: "DotGothic16", sans-serif;
+}
 
-	.wrapper {
+.wrapper {
+	align-items: center;
+	text-align: center;
+}
 
-		align-items: center;
-		text-align: center;
-	}
+a:hover {
+	color: rgb(0, 128, 255);
+	border-bottom: 1px dashed rgb(0, 128, 255);
+}
 
-	a:hover {
-		color: rgb(0, 128, 255);
-		border-bottom: 1px dashed rgb(0, 128, 255);
-	}
+header {
+	background-color: rgb(0, 0, 193);
+	height: 180px;
+	border-bottom: 10px dashed white;
+}
 
-	header {
-		background-color: rgb(0, 0, 193);
-		height: 180px;
-		border-bottom: 10px dashed white;
-	}
-
-	.sp {
-		font-size: 46px;
-		color: blue;
-	}
+.sp {
+	font-size: 46px;
+	color: blue;
+}
 
 
-	nav {
-		text-align: center;
-		margin: 0 240px 0;
-	}
+nav {
+	text-align: center;
+	margin: 0 240px 0;
+}
 
-	nav h1 {
-		font-size: 48px;
-	}
+nav h1 {
+	font-size: 48px;
+}
 
-	nav ul {
-		display: flex;
-		justify-content: center;
-		margin-left: auto;
-		gap: 1rem;
-	}
+nav ul {
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	gap: 1rem;
+}
 
-	nav ul li {
-		padding: 20px;
-		font-size: 32px;
-		margin-top: 20px;
-		letter-spacing: 0.5rem;
+nav ul li {
+	padding: 20px;
+	font-size: 32px;
+	margin-top: 20px;
+	letter-spacing: 0.5rem;
 
-	}
+}
 
-	body {
-		overflow-x: hidden;
-	}
+body {
+	overflow-x: hidden;
+}
 
-	#profile {
-		align-items: center;
-		text-align: center;
-		height: 450px;
-		font-size: 18px;
-		margin: 0 15% 0;
+#profile {
+	align-items: center;
+	text-align: center;
+	height: 450px;
+	font-size: 18px;
+	margin: 0 15% 0;
 
-	}
+}
 
-	#profile h1 {
-		margin-top: 20px;
-		font-size: 32px;
-		border-top: dashed 2px rgb(0, 128, 255);
-		border-bottom: dashed 2px rgb(0, 128, 255);
-	}
+#profile h1 {
 
-	.item1 {
-		display: flex;
-		line-height: 3rem;
-		margin-top: 30px;
-		gap: 20px;
-		height: 350px;
-		border: 2px solid rgb(255, 255, 255);
-		background-color: rgb(0, 0, 0);
-		color: white;
-		border-radius: 10px;
-	}
+	font-size: 32px;
 
-	.text1 {
-		margin-top: 20px;
-	}
+}
 
-	.contents-profile,
-	.contents-text {
+.profile-top {
+	border: dashed 2px rgb(255, 255, 255);
+	border-radius: 10px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	margin: 40px auto 0;
+	padding: 10px 0 10px 0;
+	justify-content: center;
+	gap: 10px;
+	background-color: rgb(0, 0, 0);
+	color: white;
+}
 
-		margin-top: 20px;
-	}
+.profile-top img {
+	width: 40px;
+	height: 60px;
+}
 
-	.contents-profile {
-		width: 35%;
-	}
+.profile-top img:hover {
+	transform: translateY(-5px);
+}
 
-	.contents-text {
-		width: 65%;
-	}
+.item1 {
+	display: flex;
+	line-height: 3rem;
+	margin-top: 30px;
+	gap: 20px;
+	height: 350px;
+	border: 2px solid rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border-radius: 10px;
+}
 
-	.contents-text p {
-		text-align: left;
-	}
+.text1 {
+	margin-top: 20px;
+}
 
-	#skill {
-		align-items: center;
-		text-align: center;
-		font-size: 18px;
-		margin: 0 15% 0;
-	}
+.contents-profile,
+.contents-text {
 
-	#skill h1 {
-		margin-top: 20px;
-		font-size: 32px;
-		border-top: dashed 2px rgb(0, 128, 255);
-		border-bottom: dashed 2px rgb(0, 128, 255);
-	}
+	margin-top: 20px;
+}
 
-	.skill-li {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 2rem;
-		margin-top: 30px;
-		margin-bottom: 40px;
-		border: 2px solid rgb(255, 255, 255);
-		background-color: rgb(0, 0, 0);
-		color: white;
-		border-radius: 10px;
-	}
+.contents-profile {
+	width: 35%;
+}
 
-	.skill-item {
-		width: 45%;
-		margin-top: 3rem;
+.contents-text {
+	width: 65%;
+}
 
-	}
+.contents-text p {
+	text-align: left;
+}
 
-	.skill-item ul li {
-		line-height: 2rem;
-		list-style: inside;
-		text-align: start;
+#skill {
+	align-items: center;
+	text-align: center;
+	font-size: 18px;
+	margin: 0 15% 0;
+}
 
-	}
+#skill h1 {
+	font-size: 32px;
+}
 
-	#contact {
-		align-items: center;
-		text-align: center;
-		font-size: 18px;
-		margin: 0 15% 0;
-		line-height: 3rem;
-		margin-bottom: 40px;
-	}
+.skill-top {
+	border: dashed 2px rgb(255, 255, 255);
+	border-radius: 10px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	margin: 40px auto 0;
+	padding: 10px 0 10px 0;
+	justify-content: center;
+	gap: 10px;
+	background-color: rgb(0, 0, 0);
+	color: white;
+}
 
-	.contact-form {
-		padding-bottom: 20px;
-		border: 2px solid rgb(255, 255, 255);
-		background-color: rgb(0, 0, 0);
-		color: white;
-		border-radius: 10px;
-	}
+.skill-top img {
+	width: 50px;
+	height: 50px;
+}
 
-	#contact h1 {
-		margin-top: 20px;
-		font-size: 32px;
-		border-top: dashed 2px rgb(0, 128, 255);
-		border-bottom: dashed 2px rgb(0, 128, 255);
-		margin-bottom: 20px;
-	}
+.skill-top img:hover {
+	transform: translateY(-5px);
+}
 
-	#contact input {
-		border: 1.5px solid rgb(255, 255, 255);
-		border-radius: 10px;
+.skill-li {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2rem;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	border: 2px solid rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border-radius: 10px;
+}
 
-	}
+.skill-item {
+	width: 45%;
+	margin-top: 3rem;
 
-	.box {
-		text-align: left;
-	}
+}
 
-	textarea {
-		border: 1.5px solid rgb(255, 255, 255);
-		border-radius: 10px;
-		text-align: left;
-		width: 50%;
-		height: 10rem;
-	}
+.skill-item ul li {
+	line-height: 2rem;
+	list-style: inside;
+	text-align: start;
 
-	.gender {
-		border: 1.5px solid rgb(255, 255, 255);
-		border-radius: 10px;
-		width: 25%;
-		margin: 0 auto;
-	}
+}
 
-	label:hover {
-		color: blue;
-		border-bottom: 1px dashed blue;
-	}
+#contact {
+	align-items: center;
+	text-align: center;
+	font-size: 18px;
+	margin: 0 15% 0;
+	line-height: 3rem;
+	margin-bottom: 40px;
+}
 
-	.sub {
-		margin-top: 20px;
-		text-align: center;
-		width: 10%;
-		background-color: rgb(255, 0, 0);
-		border-radius: 15%;
-		box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
-		transform: translateY(-4px);
+.contact-top {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	margin: 30px auto 30px;
+	padding: 10px 0 10px 0;
+	justify-content: center;
+	gap: 10px;
+	border: dashed 2px rgb(255, 255, 255);
+	border-radius: 10px;
+	background-color: rgb(0, 0, 0);
+	color: white;
+}
 
-	}
+.contact-top img {
+	width: 60px;
+	height: 40px;
+}
 
-	.sub:hover {
-		background-image: linear-gradient(130deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 80%);
-		transition: .5s;
-		box-shadow: none;
-		transform: translateY(0);
-	}
+.contact-top img:hover {
+	transform: translateY(-5px);
+}
 
-	footer {
-		height: 120px;
-		background-color: rgb(0, 0, 193);
-	    border-top: 10px dashed white;
+.contact-form {
+	padding-bottom: 20px;
+	border: 2px solid rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border-radius: 10px;
+}
 
-	}
+#contact h1 {
 
-	footer p {
-		text-align: center;
-		padding-top: 80px;
-	}
+	font-size: 32px;
+}
+
+#contact input {
+	border: 1.5px solid rgb(255, 255, 255);
+	border-radius: 10px;
+
+}
+
+.box {
+	text-align: left;
+}
+
+textarea {
+	border: 1.5px solid rgb(255, 255, 255);
+	border-radius: 10px;
+	text-align: left;
+	width: 50%;
+	height: 10rem;
+}
+
+.gender {
+	border: 1.5px solid rgb(255, 255, 255);
+	border-radius: 10px;
+	width: 25%;
+	margin: 0 auto;
+}
+
+label:hover {
+	color: blue;
+	border-bottom: 1px dashed blue;
+}
+
+.sub {
+	margin-top: 20px;
+	text-align: center;
+	width: 10%;
+	background-color: rgb(255, 0, 0);
+	border-radius: 15%;
+	box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
+	transform: translateY(-4px);
+
+}
+
+.sub:hover {
+	background-image: linear-gradient(130deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 80%);
+	transition: .5s;
+	box-shadow: none;
+	transform: translateY(0);
+}
+
+footer {
+	height: 120px;
+	background-color: rgb(0, 0, 193);
+	border-top: 10px dashed white;
+
+}
+
+footer p {
+	text-align: center;
+	padding-top: 80px;
+}
