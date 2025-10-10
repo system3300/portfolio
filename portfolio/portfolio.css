@@ -21,6 +21,7 @@ a:hover {
 	border-bottom: 2px dashed rgb(0, 128, 255);
 }
 
+
 /*ヘッダー*/
 
 header {
@@ -37,7 +38,7 @@ header a:hover {
 
 .sp {
 	font-size: 46px;
-	color: blue;
+	color: rgb(255, 0, 0);
 }
 
 
@@ -62,6 +63,22 @@ nav ul li {
 	font-size: 32px;
 	margin-top: 20px;
 	letter-spacing: 0.5rem;
+	display: flex;
+	position: relative;
+}
+
+nav ul li img {
+	width: 40px;
+	height: 40px;
+	display: none;
+	position: absolute;
+	top: 20px;
+	left: -20px;
+}
+
+nav ul li:hover img {
+	display: block;
+
 }
 
 /*メイン*/
@@ -189,6 +206,11 @@ nav ul li {
 .skill-item {
 	width: 45%;
 	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.skill-item ul {
+	margin-top: 1.5rem;
 }
 
 .skill-item ul li {
@@ -248,6 +270,17 @@ nav ul li {
 	border-radius: 10px;
 }
 
+.contact-wrapper {
+	text-align: left;
+	margin-left: 40%;
+	margin-right: 5%;
+}
+
+::placeholder {
+	padding-left: 10px;
+
+}
+
 .box {
 	text-align: left;
 }
@@ -256,20 +289,42 @@ textarea {
 	border: 1.5px solid rgb(255, 255, 255);
 	border-radius: 10px;
 	text-align: left;
-	width: 50%;
+	width: 70%;
 	height: 10rem;
 }
 
 .gender {
 	border: 1.5px solid rgb(255, 255, 255);
 	border-radius: 10px;
-	width: 25%;
-	margin: 0 auto;
+	text-align: center;
+	width: 220px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	column-gap: 8px;
+}
+
+label {
+	display: flex;
+	position: relative;
 }
 
 label:hover {
 	color: blue;
 	border-bottom: 1px dashed blue;
+}
+
+label img {
+	width: 23px;
+	height: 35px;
+	display: none;
+	position: absolute;
+	top: 7px;
+	left: -25px;
+}
+
+label:hover img {
+	display: block;
 }
 
 .sub {
@@ -283,7 +338,6 @@ label:hover {
 }
 
 .sub:hover {
-	background-image: linear-gradient(130deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 80%);
 	transition: .5s;
 	box-shadow: none;
 	transform: translateY(0);

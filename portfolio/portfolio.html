@@ -20,9 +20,13 @@
 					My Portfolio
 				</h1>
 				<ul>
-					<li><a href="#profile">Profile</a></li>
-					<li><a href="#skill">Skill</a></li>
-					<li><a href="#contact">Contact</a></li>
+
+					<li><img src="image/tatefuda_yajirushi_01_beige.png" alt="看板"><a href="#profile">Profile</a></li>
+
+					<li><img src="image/tatefuda_yajirushi_01_beige.png" alt="看板"><a href="#skill">Skill</a></li>
+
+					<li><img src="image/tatefuda_yajirushi_01_beige.png" alt="看板"><a href="#contact">Contact</a></li>
+
 				</ul>
 			</nav>
 		</header>
@@ -30,9 +34,9 @@
 			<section id="profile">
 				<div>
 					<div class="profile-top">
-						<img src="image/character_gakusei_man_blazer_01_black.png">
+						<img src="image/character_gakusei_man_blazer_01_black.png" alt="人">
 						<h1><span class="sp">P</span>rofile</h1>
-						<img src="image/character_gakusei_man_blazer_01_black.png">
+						<img src="image/character_gakusei_man_blazer_01_black.png" alt="人">
 					</div>
 					<div class="item1">
 						<div class="contents-profile">
@@ -52,9 +56,9 @@
 			</section>
 			<section id="skill">
 				<div class="skill-top">
-					<img src="image/tsue.png">
+					<img src="image/tsue.png" alt="杖">
 					<h1><span class="sp">S</span>kill</h1>
-					<img src="image/tsue.png">
+					<img src="image/tsue.png" alt="杖">
 				</div>
 				<div class="skill-li">
 					<div class="skill-item">
@@ -94,23 +98,27 @@
 	</section>
 	<section id="contact">
 		<div class="contact-top">
-			<img src="image/letter_white.png">
+			<img src="image/letter_white.png" alt="手紙">
 			<h1><span class="sp">C</span>ontact</h1>
-			<img src="image/letter_white.png">
+			<img src="image/letter_white.png" alt="手紙">
 		</div>
 		<div class="contact-form">
-			<p>お名前</p>
-			<p><input class="box" type="text" name="name" placeholder="お名前"></p>
-			<p>性別</p>
-			<p class="gender"><label for="male">男性</label><input type="radio" name="gender" value="man" id="male">&emsp;
-				<label for="female">女性</label><input type="radio" name="gender" value="man" id="female">
-			</p>
-			<p>年齢</p>
-			<p><input class="box" type="text" name="age" placeholder="年齢"></p>
-			<p>メールアドレス</p>
-			<p><input class="box" type="email" name="mail" placeholder="メールアドレス"></p>
-			<p>記入フォーム</p>
-			<p><textarea></textarea></p>
+			<div class="contact-wrapper">
+				<p>お名前</p>
+				<p><input class="box" type="text" name="name" placeholder="お名前"></p>
+				<p>性別</p>
+				<p class="gender"><label for="male"><img src="image/character_murabito_young_man_green.png"
+							alt="男">男性</label><input type="radio" name="gender" value="man" id="male">&emsp;
+					<label for="female"><img src="image/character_murabito_young_woman_blue.png"
+							alt="女性">女性</label><input type="radio" name="gender" value="man" id="female">
+				</p>
+				<p>年齢</p>
+				<p><input class="box" type="text" name="age" placeholder="年齢"></p>
+				<p>メールアドレス</p>
+				<p><input class="box" type="email" name="mail" placeholder="メールアドレス"></p>
+				<p>記入フォーム</p>
+				<p><textarea></textarea></p>
+			</div>
 			<p><input class="sub" type="submit" value="送信"></p>
 		</div>
 	</section>
