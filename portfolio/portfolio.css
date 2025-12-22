@@ -86,8 +86,7 @@ nav ul li:hover img {
 /*プロフィール*/
 
 #profile {
-	align-items: center;
-	text-align: center;
+	text-align: left;
 	height: 450px;
 	font-size: 18px;
 	margin: 0 15% 0;
@@ -130,20 +129,27 @@ nav ul li:hover img {
 	background-color: rgb(0, 0, 0);
 	color: white;
 	border-radius: 10px;
+	padding-left: 5%;
+}
+
+.item1 h2 {
+	font-size: 24px;
+	color: rgb(214, 41, 46);
 }
 
 .text1 {
 	margin-top: 20px;
 }
 
-.contents-profile,
-.contents-text {
-
-	margin-top: 20px;
+.contents-profile,.contents-text {
+	padding-top: 20px;
 }
 
 .contents-profile {
 	width: 35%;
+	border-right: 2px solid rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	color: white;
 }
 
 .contents-text {
@@ -207,6 +213,15 @@ nav ul li:hover img {
 	width: 45%;
 	margin-top: 3rem;
 	margin-bottom: 3rem;
+	border: 2px solid rgb(255, 255, 255);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.skill-item h2 {
+	text-align: left;
+	font-size: 24px;
+	color: rgb(214, 41, 46);
 }
 
 .skill-item ul {
@@ -222,12 +237,45 @@ nav ul li:hover img {
 /*お問い合わせ*/
 
 #contact {
-	align-items: center;
 	text-align: center;
 	font-size: 18px;
 	margin: 0 15% 0;
 	line-height: 3rem;
 	margin-bottom: 40px;
+}
+
+
+#contact table {
+	border-collapse: separate;
+	border-spacing: 0;
+	border: 2px solid rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 20px;
+	width: 100%;
+	table-layout: fixed;
+}
+
+
+#contact th {
+	width: 25%;
+	min-width: 120px;
+	text-align: left;
+	padding: 12px 10px;
+	vertical-align: middle;
+	color: white;
+}
+
+#contact td {
+	width: 75%;
+	padding: 12px 10px;
+	vertical-align: middle;
+	color: white;
+}
+
+#contact table tr {
+	border: none;
 }
 
 .contact-top {
@@ -271,25 +319,25 @@ nav ul li:hover img {
 }
 
 .contact-wrapper {
-	text-align: left;
-	margin-left: 40%;
-	margin-right: 5%;
-}
-
-::placeholder {
-	padding-left: 10px;
-
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
 }
 
 .box {
 	text-align: left;
 }
 
-textarea {
+#contact .box,#contact textarea {
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+
+#contact textarea {
 	border: 1.5px solid rgb(255, 255, 255);
 	border-radius: 10px;
 	text-align: left;
-	width: 70%;
 	height: 10rem;
 }
 
@@ -297,16 +345,23 @@ textarea {
 	border: 1.5px solid rgb(255, 255, 255);
 	border-radius: 10px;
 	text-align: center;
-	width: 220px;
+	width: 100%;
+	padding: 5px 10px;
 	height: 50px;
+	margin-left: 10px;
 	display: flex;
 	justify-content: center;
 	column-gap: 8px;
+	gap: 20px;
+	margin-top: 10px;
 }
 
 label {
 	display: flex;
 	position: relative;
+	align-items: center;
+	gap: 5px;
+	cursor: pointer;
 }
 
 label:hover {
@@ -314,17 +369,30 @@ label:hover {
 	border-bottom: 1px dashed blue;
 }
 
+.gender input[type="radio"] {
+	margin: 0;
+	vertical-align: middle;
+}
+
 label img {
 	width: 23px;
 	height: 35px;
 	display: none;
 	position: absolute;
-	top: 7px;
-	left: -25px;
+	top: -5px;
+	left: -30px;
 }
 
 label:hover img {
 	display: block;
+}
+
+#contact .text-area {
+	text-align: left;
+}
+
+.sub-pare {
+	text-align: center;
 }
 
 .sub {
