@@ -242,6 +242,9 @@ nav ul li:hover img {
 	line-height: 2rem;
 	list-style: inside;
 	text-align: start;
+}
+
+.works li {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
